@@ -3,6 +3,7 @@ function myAnimal() {
   return animal
 }
 
+
 function yourAnimal() {
   var animal = 'cat'
   // How can we make sure that this function
@@ -12,16 +13,16 @@ function yourAnimal() {
 }
 
 function add2(n) {
-  var two = 2
-  return n + two;
+  return n + 2;
 
   // Feel free to move things around.
 }
 
-var funkyFunction = function() {
-  return function() {
-    return "FUNKY!"
+function funkyFunction() {
+  return function(){
+    return 'FUNKY!'
   }
+
 }
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
